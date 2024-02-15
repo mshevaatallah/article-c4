@@ -81,6 +81,14 @@
   margin-top: 4%;
 }
 
+@media screen and (max-width: 900px) {
+  .sub-title-foot {
+    margin: 20px 0;
+  }
+  .sub-title-foot p {
+    font-size: 0.8em;
+  }
+}
 .image-content-2 {
   padding-left: 10%;
   padding-top: 10%;
@@ -90,6 +98,12 @@
   width: 80%;
   height: 50vh;
   background-color: white;
+}
+
+@media screen and (max-width: 900px) {
+  .frame-img {
+    width: 100%;
+  }
 }
 
 .right-content-2 {
@@ -139,16 +153,20 @@
   font-family: "Poppins", sans-serif;
   text-align: center;
 }
+@media screen and (max-width: 700px) {
+  .container-teks {
+    width: 100%;
+  }
+}
 
 .pengguna {
-  width: 40%;
   display: flex;
   justify-content: center;
   padding-top: 5%;
 }
 
 .img-pengguna {
-  margin-right: 2%;
+  margin-right: 20px;
   width: 60px;
   height: 60px;
   background-color: white;
@@ -220,9 +238,16 @@
 .logo {
   margin-right: 5%;
   margin-left: 5%;
-  width: 30%;
+  width: 70px;
   height: 40px;
   background-color: white;
+}
+
+@media screen and (max-width: 800px) {
+  .logo {
+    width: 100%;
+    height: 30px;
+  }
 }
 
 .container-logo-2 {
@@ -391,17 +416,19 @@ input::-webkit-input-placeholder {
   width: 95%;
   margin: auto;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+
   padding-left: 3%;
   margin-top: 20px;
 }
 
 .teks-bawah {
   padding-top: 1%;
-  width: 60%;
+  width: 90%;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .teks-bawah span {
@@ -420,6 +447,23 @@ input::-webkit-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   color: #5c5f70;
+}
+.text-side p {
+  font-size: 11px;
+
+  margin-right: 1%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #5c5f70;
+  margin-top: 10px;
+}
+@media screen and (max-width: 700px) {
+  .bawah {
+    flex-direction: column;
+  }
+  .teks-bawah {
+    justify-content: start;
+  }
 }
 
 .sosmed {
@@ -442,8 +486,16 @@ input::-webkit-input-placeholder {
     width: 90%;
     margin: auto;
   }
+
+  .pengguna {
+    padding-top: 10%;
+  }
   .image-content-2 {
     padding-left: 0;
+  }
+
+  .left-content-2 {
+    width: 100%;
   }
   .right-content-2 {
     width: 100%;
