@@ -1,0 +1,250 @@
+.foot {
+  margin-top: 4%;
+  margin-bottom: 2vh;
+}
+
+footer {
+  width: 95%;
+
+  margin: auto;
+  background-color: #1c1d22;
+  padding-bottom: 50px;
+  padding-top: 20px;
+  border-radius: 10px;
+  color: #fafafc;
+}
+
+.atas {
+  padding-top: 2.5%;
+  padding-left: 5%;
+  padding-right: 2.5%;
+  padding-bottom: 50px;
+  height: 80%;
+  /* background-color: rgb(61, 85, 77); */
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-foot {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.sub-title-foot {
+  padding-top: 2%;
+  width: 60%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #787c91;
+  letter-spacing: 1px;
+}
+
+input {
+  margin-top: 2%;
+  width: 40%;
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: none;
+  background-color: #2e3038;
+}
+
+input::-webkit-input-placeholder {
+  color: #a3a3a6;
+}
+
+.btn-foot {
+  margin-top: 3%;
+  width: 200px;
+  height: 50px;
+  background-color: #fafafc;
+  border-radius: 25px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.right-foot {
+  display: flex;
+  justify-content: space-around;
+}
+
+.products {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-right: 50px;
+}
+@media screen and (max-width: 900px) {
+  .atas {
+    flex-direction: column;
+  }
+  .right-foot {
+    margin-top: 5%;
+    justify-content: start;
+  }
+}
+
+.products span {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: #787c91;
+}
+
+.for {
+  margin-top: 10px;
+}
+
+.products p {
+  padding-top: 10%;
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #d2d3da;
+}
+@media screen and (max-width: 650px) {
+  .right-foot {
+    flex-direction: column;
+  }
+  input {
+    width: 95%;
+    margin: 5% 0;
+    padding-right: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .title-foot {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  .sub-title-foot {
+    width: 100%;
+    text-align: center;
+  }
+  .btn-foot {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .products span {
+    padding-top: 5%;
+  }
+
+  .products p {
+    padding-top: 2%;
+  }
+}
+.line_footer {
+  width: 95%;
+  margin: auto;
+  height: 1px;
+  background-color: #a3a3a6;
+  opacity: 20%;
+}
+
+.bawah {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding-left: 3%;
+  margin-top: 20px;
+}
+
+.teks-bawah {
+  padding-top: 1%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.teks-bawah span {
+  color: #fafafc;
+  font-size: 11px;
+  margin-right: 2%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.teks-bawah p {
+  font-size: 11px;
+  margin-left: 1%;
+  margin-right: 1%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #5c5f70;
+}
+.text-side p {
+  font-size: 11px;
+
+  margin-right: 1%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #5c5f70;
+  margin-top: 10px;
+}
+@media screen and (max-width: 700px) {
+  .bawah {
+    flex-direction: column;
+  }
+  .teks-bawah {
+    justify-content: start;
+  }
+}
+
+.sosmed {
+  padding-top: 1%;
+  width: 10%;
+  display: flex;
+  justify-content: right;
+}
+
+.frame-sosmed {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  margin-left: 5%;
+}
+
+@media screen and (max-width: 900px) {
+  .container-2 {
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+  }
+
+  .pengguna {
+    padding-top: 10%;
+  }
+  .image-content-2 {
+    padding-left: 0;
+  }
+
+  .left-content-2 {
+    width: 100%;
+  }
+  .right-content-2 {
+    width: 100%;
+    padding-top: 10%;
+  }
+  .sub-title {
+    flex-direction: column;
+  }
+  .desk p {
+    max-width: 100%;
+  }
+}
