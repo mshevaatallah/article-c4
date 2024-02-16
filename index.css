@@ -66,11 +66,15 @@
   padding-right: 10%;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
+  position: relative;
 }
-
+.founded span {
+  position: relative;
+}
 .sub-title span {
   font-weight: 500;
   font-size: 11px;
+  position: relative;
   letter-spacing: 1px;
   color: #636779;
 }
@@ -78,6 +82,7 @@
 .sub-title p {
   font-size: 24px;
   color: white;
+  position: relative;
   margin-top: 4%;
 }
 
@@ -98,7 +103,47 @@
   width: 80%;
   height: 50vh;
   background-color: white;
+  position: relative;
 }
+/* .frame-img::before {
+  content: "";
+  position: absolute;
+  inset: 0px;
+  background: conic-gradient(
+    from 90deg at 40% -25%,
+    #ffd700,
+    #f79d03,
+    #ee6907,
+    #e6390a,
+    #de0d0d,
+    #d61039,
+    #cf1261,
+    #c71585,
+    #cf1261,
+    #d61039,
+    #de0d0d,
+    #ee6907,
+    #f79d03,
+    #ffd700,
+    #ffd700,
+    #ffd700
+  );
+  filter: blur(400px);
+  transform: translate3d(-11px, 0px, -1px);
+  clip-path: polygon(
+    -100vmax -100vmax,
+    100vmax -100vmax,
+    100vmax 100vmax,
+    -100vmax 100vmax,
+    -100vmax -100vmax,
+    calc(0px - -11px) calc(0px - 0px),
+    calc(0px - -11px) calc(100% - 0px - 0px),
+    calc(100% - -11px - 0px) calc(100% - 0px - 0px),
+    calc(100% - -11px - 0px) calc(0px - 0px),
+    calc(0px - -11px) calc(0px - 0px)
+  );
+  pointer-events: none;
+} */
 
 @media screen and (max-width: 900px) {
   .frame-img {
